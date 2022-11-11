@@ -1,0 +1,148 @@
+.form{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin-top: 220px;
+}
+
+
+form{
+ display: flex;
+flex-direction: column;
+border: 1px solid white;
+width: 475px;
+border-radius: 25px;
+box-shadow: 0.2rem 0.3rem 0.4rem blue, -0.2rem -0.3rem 0.4rem blue;
+
+}
+.social-icons{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+margin-top: 50px;
+margin-left: -100px;
+background-color: rgb(125, 97, 97);
+animation : Bgchange 20s ease-in-out infinite;
+}
+ 
+@keyframes Bgchange {
+ 0%{
+  background-color: rgb(125, 97, 97);
+ }
+ 25%{
+  background-color: rgb(94, 59, 126);
+ }
+ 50%{
+  background-color: rgb(160, 190, 203);
+ }
+ 75%{
+  background-color: cadetblue;
+ }
+ 100%{
+  background-color: black;
+ }
+}
+
+.input{
+margin-top: 20px;
+background-color: rgb(53, 49, 49);
+color: white;
+}
+input{
+ width: 300px;
+
+}
+.fa-github{
+ color:#171515;
+ background-color: white;
+ transition : 2s;
+ border-radius: 100%;
+}
+.fa-github:hover{
+ transform : rotateY(360deg)
+}
+.fa-facebook:hover{transform: rotateY(360deg)}
+.fa-twitter:hover{transform: rotateY(360deg)}
+.fa-facebook{
+ 
+ color: white;
+ background-color: blue;
+ border-radius: 100%;
+ transition : 2s;
+}
+.Facebook{
+ position: relative;
+ left: -100px;
+}
+
+.Github{
+ position: relative;
+ left: 100px;
+}
+
+
+.fa-twitter{
+ color: blue;
+
+ border-radius: 100%;
+ transition : 2s;
+}
+.gmap_canvas
+{
+  overflow: hidden;
+  background: none;
+  height: 500px;
+  width: 600px;
+}
+.mapouter
+{
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+}
+.form-head{
+ text-align: center;
+}
+
+.f-head{
+margin-top: 10px;
+}
+.star{
+ color: rgb(255, 0, 0);
+ font-size: 30px;
+}
+textarea{
+ margin-left: 70px;
+}
+.btn30{
+ margin-left: 126px;
+}
+
+.C-head{
+ color: blue;
+ padding-top: 30px;
+ 
+}
+.Cont-para{
+ padding-top: 40px;
+}
+
+.C-span{
+ color: greenyellow;
+}
+.main-contact::before{
+content: " ";
+background: url("../components/images/contacts.jpg" ) no-repeat center center/cover;
+position: absolute;
+z-index: -1;
+opacity: .7;
+height: 200%;
+width: 100%;
+}
+.main-contact{
+ position: relative;
+}
+.contact-content{
+ text-align: center;
+}

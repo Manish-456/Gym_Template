@@ -1,0 +1,197 @@
+.J-mainCont{
+ display: grid;
+ grid-template-columns: repeat(3, 358px);
+ grid-gap: 20px; 
+ margin-top: 30px;
+ margin-left: 40px;
+}
+.J-img{
+ height: 200px;
+ width: 178px;
+ margin-left: 40px;
+
+}
+.im{
+ margin-left: 100px;
+}
+.J-h4{
+ text-align: center;
+ margin-right: 136px;
+}
+.J-subhead{
+ text-align: center;
+ margin-right: 100px;
+}
+.J-para{
+ padding:  10px 10px;
+}
+.J-h1{
+ font-size: 30px;
+}
+
+@media (max-width: 1500px){
+.J-container{
+  overflow: hidden;
+}
+
+.J-img{
+ height: 130px;
+ width: 130px;
+}
+.J-mainCont {
+ display: grid;
+ grid-template-columns: repeat(3, 400px);
+ grid-gap: 0px;
+ margin-top: 30px;
+ margin-left: -43px;
+}
+.J-h1 {
+ font-size: 18px;
+}
+.im{
+ margin-left: 44px;
+}
+.J-h4{
+ margin-left: 155px;
+}
+.J-subhead {
+ text-align: center;
+margin-left: 145px;
+}
+}
+@media (max-width:830px) and (min-width: 770px){
+ .J-mainCont {
+  display: grid;
+  grid-template-columns: repeat(3, 235px);
+  grid-gap: 0px;
+  margin-top: 30px;
+  margin-left: 22px;
+}
+}
+
+@media (max-width:602px) and (min-width: 500px){
+  .J-subhead {
+    font-size: 20px;
+    margin-left: 166px;
+}
+  .J-h4 {
+    margin-left: 200px;
+}
+.J-mainCont {
+  display: grid;
+  grid-template-columns: repeat(1, 235px);
+  grid-gap: 0px;
+  margin-top: 30px;
+  margin-left: 208px;
+}
+.J-h1{
+ 
+  font-size: 15px;
+}
+.J-container{
+  margin-left: -77px;
+}
+}
+
+@media (max-width: 500px) and (min-width: 400px) {
+  .J-h4 {
+    margin-left: 147px;
+}
+.J-container {
+  overflow: hidden;
+  margin-left: -36px;
+}
+.J-subhead {
+  font-size: 20px;
+  margin-left: 112px;
+}
+.J-mainCont {
+  display: grid;
+  grid-template-columns: repeat(1, 254px);
+  grid-gap: 3rem;
+  margin-top: 30px;
+  margin-left: 97px;
+  overflow: hidden;
+  text-align: center;
+}
+}
+
+@media (max-width:400px){
+  .J-h4 {
+    margin-left: 211px;
+}
+.J-container {
+  overflow: hidden;
+  margin-left: -84px;
+}
+.J-subhead {
+  font-size: 20px;
+  margin-left: 184px;
+}
+.J-mainCont {
+  display: grid;
+  grid-template-columns: repeat(1, 254px);
+  grid-gap: 3rem;
+  margin-top: 30px;
+  margin-left: 97px;
+  overflow: hidden;
+  text-align: center;
+}
+
+}
+
+
+@media (max-width: 1200px) and (min-width: 1000){
+  .J-mainCont {
+    display: grid;
+    grid-template-columns: repeat(3, 306px);
+    grid-gap: 0px;
+    margin-top: 30px;
+    margin-left: -43px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 830px){
+  .J-mainCont {
+    display: grid;
+    grid-template-columns: repeat(3, 206px);
+    grid-gap: 3rem;
+    margin-top: 30px;
+    margin-left: 167px;
+    overflow: hidden;
+}
+.J-container {
+  overflow: hidden;
+  margin-left: -185px;
+}
+.J-subhead {
+  text-align: center;
+  margin-left: 224px;
+}
+.J-h4 {
+  margin-left: 217px;
+}
+
+}
+
+@media (max-width: 770px) and (min-width: 602px){
+ 
+.J-mainCont {
+  display: grid;
+  grid-template-columns: repeat(1, 254px);
+  grid-gap: 3rem;
+  margin-top: 30px;
+  margin-left: 86px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.J-h4 {
+  margin-left: 93px;
+}
+.J-subhead {
+  text-align: center;
+  margin-left: 58px;
+}
+}

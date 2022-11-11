@@ -1,0 +1,82 @@
+.S-container{
+ display: flex;
+ position: relative;
+ justify-content: center;
+ left: -125px;
+ flex-wrap: wrap;
+
+}
+.s-content h4{
+color: green;
+margin-left: 250px;
+}
+.s-content{
+ margin-right: 190px;
+ position: relative;
+}
+.S-serv{
+ font-size: 25px;
+ position: relative;
+ left: 200px;
+
+
+
+}
+
+.S-txt{
+ margin-left: 20px;
+}
+@media (max-width: 1500px) and (min-width: 1000px){
+
+ .S-serv {
+  font-size: 25px;
+  position: relative;
+  left: 294px;
+ }
+ .s-content h4 {
+  color: green;
+  position: relative;
+  left: 108px;
+ }
+}
+
+@media (max-width: 500px){
+  .S-serv {
+    font-size: 20px;
+    position: relative;
+    left: 260px;
+}
+.s-content h4 {
+  color: green;
+ 
+  position: relative;
+  left: 65px;
+}
+.S-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  left: -125px;
+  flex-wrap: wrap;
+}
+}
+
+@media (max-width:602px) and (min-width:500px){
+  .S-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    left: -70px;
+    flex-wrap: wrap;
+}
+}
+
+@media (max-width: 1000px) and (min-width: 602px){
+  .S-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    left: -79px;
+    flex-wrap: wrap;
+}
+}

@@ -1,0 +1,77 @@
+
+.Sc-main:before{
+ content: " ";
+ background: url("../components/images/Schedule.jpg") no-repeat center center/cover;
+ position: absolute;
+ height: 300%;
+ width: 100%;
+ z-index: -1;
+ opacity: .5;
+}
+.Sc-main{
+ position: relative;
+}
+@media (max-width: 1199.98px){
+.table-wrap {
+    overflow-x: scroll;
+}
+}
+.Sc-para{
+ text-align: center;
+}
+.S-span{
+ color: rgb(214, 228, 17);
+}
+.H-color{
+ color: rgb(20, 217, 252);
+ text-align: center;
+ padding-top: 40px;
+}
+
+.table-wrap{
+ margin-top: 150px;
+}
+.table {
+ min-width: 1000px!important;
+ width: 100%;
+ color: white;
+ background: rgb(90, 89, 89);
+ -webkit-box-shadow: 0 5px 12px -12px rgb(0 0 0 / 29%);
+ -moz-box-shadow: 0 5px 12px -12px rgba(0,0,0,.29);
+ box-shadow: 0 5px 12px -12px rgb(0 0 0 / 29%);
+ text-align: center;
+}
+.table thead.thead-primary {
+ background: #1425af;
+}
+.table>thead {
+ vertical-align: bottom;
+}
+thead, tbody, tr, td, th {
+ border-color: inherit;
+ border-style: solid;
+ border-width: 0;
+}
+.table>tbody {
+ vertical-align: inherit;
+}
+thead, tbody, tr, td, th {
+ border-color: inherit;
+ border: 1px solid white;
+ 
+}
+.table tbody th.scope {
+ background: #e1193e;
+ border-bottom: 2px solid #e0e5f6;
+ color: #fff;
+ border-bottom: 2px solid rgba(255,255,255,.1);
+}
+.table tbody th, .table tbody td {
+ border: 2px solid white;
+ padding: 30px;
+ font-size: 14px;
+ background: rgb(52, 49, 49);
+ vertical-align: middle;
+ border-bottom: 2px solid #f8f9fd;
+}
+

@@ -1,0 +1,297 @@
+.T-container{
+ width: 100%;
+ /* height: 100%; */
+ position: relative;
+ z-index: 0;
+ padding: 0;
+ margin-top: 110px;
+ display: grid;
+ 
+ background: linear-gradient(to right bottom, black, grey);
+  height: 344px;
+ transform: 2s;
+ }
+
+.T-head{
+ margin-top: 40px;;
+}
+.T-cont{
+ text-align: center;
+}
+.T-img{
+  /* height: 40px; */
+  max-width: 100%;
+  height: 500px;
+  animation: move 5s infinite ease-in;
+  position: relative;
+ }
+@keyframes move {
+ from{
+  left: 0;
+ }
+ to{
+  left: -40px
+ }
+}
+
+.T-content::before{
+ z-index: -1;
+    position: absolute;
+    top: 0;
+    right: -14px;
+    bottom: 0;
+    content: '';
+    width: 50px;
+    transform: skew(-15deg);
+    background: #1425af;
+    animation: changecolor 5s ease-in infinite;
+
+}
+
+@keyframes changecolor {
+ 0%{
+  background-color: #1425af;
+ }
+ 25%{
+  background-color: #454c7d;
+ }
+ 50%{
+  background-color: #97989d;
+ }
+ 75%{
+  background-color: #879af6;
+ }
+ 100%{
+  background-color: #062df2;
+ }
+ 
+}
+.T-content{
+ position: relative;
+ background-color: #090909;
+ padding: 10px 20px;
+  margin-top: -40px;;
+
+ 
+}
+
+
+.T-content::after{
+ position: absolute;
+ top: 7px;
+ left: 7px;
+ right: 7px;
+ bottom: 7px;
+ content: '';
+ border: 1px dashed rgba(255,255,255,.6);
+ z-index: -1;
+}
+.T-outer{
+ display: grid;
+ grid-template-columns: repeat(3, 300px);
+ grid-gap: 4rem;
+ justify-content: center;
+ margin-top: -130px;
+}
+.T-5{
+ color: red;
+}
+.T-h3{
+ color: grey;
+}
+
+@media (max-width: 1500px){
+
+
+
+
+  .T-img {
+    max-width: 100%;
+    height: 280px;
+    animation: move 5s infinite ease-in;
+    position: relative;
+}
+.T-outer {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-gap: 4rem;
+  justify-content: center;
+  margin-top: -130px;
+  overflow: hidden;
+}
+.T-5{
+  margin-left: 0px;
+}
+.T-1{
+  margin-left: 0px;
+}
+.T-container {
+  width: 100%;
+
+  position: relative;
+  z-index: 0;
+  padding: 0;
+  margin-top: 110px;
+  display: grid;
+  background: linear-gradient(to right bottom, black, grey);
+  height: 200px;
+  transform: 2s;
+}
+}
+
+/* @media (max-width: 602px){
+  .T-5 {
+    margin-left: -25px;
+  }
+  .T-1 {
+    margin-left: -6px;
+}
+.T-outer {
+  display: grid;
+  grid-template-columns: repeat(1, 200px);
+  grid-gap: 4rem;
+  justify-content: center;
+  margin-top: -130px;
+  margin-left: -18%;
+}
+.T-container {
+  width: 120%;
+
+  position: relative;
+  z-index: 0;
+  padding: 0;
+  margin-top: 110px;
+  display: grid;
+  background: linear-gradient(to right bottom, black, grey);
+  height: 1061px;
+  transform: 2s;
+
+}
+.T-cont {
+  text-align: center;
+  overflow: hidden;
+  margin-left: -114px;
+}
+.Test-container{
+  margin-top: 40px;
+  overflow: hidden;
+  margin-left: -35px;
+}
+
+} */
+
+@media (max-width: 500px) and (min-width: 400px){
+  .T-5 {
+    margin-left: 15px;
+    font-size: 20px;
+}
+.T-1 {
+  margin-left: 14px;
+  font-size: 20px;
+}
+.T-outer {
+  display: grid;
+  grid-template-columns: repeat(1, 200px);
+  grid-gap: 4rem;
+  justify-content: center;
+  margin-top: -130px;
+  margin-left: -2%;
+}
+}
+
+@media (max-width: 602px) and (min-width:500px){
+  .T-5 {
+    margin-left: 15px;
+    font-size: 20px;
+}
+.T-1 {
+  margin-left: 14px;
+  font-size: 20px;
+}
+.T-outer {
+  display: grid;
+  grid-template-columns: repeat(1, 200px);
+  grid-gap: 4rem;
+  justify-content: center;
+  margin-top: -130px;
+  margin-left: -2%;
+}
+}
+
+
+@media (max-width: 1200px) and (min-width: 770px){
+  .T-content {
+    position: relative;
+    background-color: #090909;
+    padding: 10px 20px;
+    width: 230px;
+    margin-top: -40px;
+}
+.T-outer {
+  display: grid;
+  grid-template-columns: repeat(3, 241px);
+  grid-gap: 4rem;
+  justify-content: center;
+  margin-top: -130px;
+  overflow: hidden;
+}
+.T-container {
+  width: 100%;
+
+  position: relative;
+  z-index: 0;
+  padding: 0;
+  margin-top: 110px;
+  display: grid;
+  background: linear-gradient(to right bottom, black, grey);
+  height: 236px;
+  transform: 2s;
+}
+}
+
+@media (max-width: 770px) and (max-width: 602px) {
+  .T-outer {
+    display: grid;
+    grid-template-columns: repeat(1, 241px);
+    grid-gap: 4rem;
+    justify-content: center;
+    margin-top: -130px;
+    overflow: hidden;
+      margin-left: -62px;
+}
+.T-container {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  padding: 0;
+  margin-top: 110px;
+  display: grid;
+  background: linear-gradient(to right bottom, black, grey);
+  height: 1037px;
+  transform: 2s;
+
+}
+.T-head {
+  margin-top: 40px;
+  margin-left: -52px;
+}
+
+@media (max-width:400px){
+  .T-outer {
+    display: grid;
+    grid-template-columns: repeat(1, 241px);
+    grid-gap: 4rem;
+    justify-content: center;
+    margin-top: -130px;
+    overflow: hidden;
+    margin-left: -33px;
+}
+.T-1 {
+  margin-left: 50px;
+}
+.T-5 {
+  margin-left: 30px;
+}
+}
+
+}

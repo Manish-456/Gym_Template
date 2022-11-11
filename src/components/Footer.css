@@ -1,0 +1,91 @@
+.F-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  justify-content: center;
+
+}
+.F-ul, .F1-ul{
+  list-style: none;
+}
+
+.F-ul li {
+text-decoration: none;
+
+}
+.fa-location{
+  color: yellow;
+}
+.fa-phone-volume{
+  color: green;
+}
+.fa-paper-plane{
+  color: blue;
+}
+.fa-location-dot:before, .fa-map-marker-alt:before {
+  content: "\f3c5";
+  margin-left: -30px;
+}
+
+.fa-phone-volume:before, .fa-volume-control-phone:before {
+  content: "\f2a0";
+  margin-left: -30px;
+}
+
+.fa-paper-plane:before {
+    content: "\f1d8";
+    margin-left: -30px;
+  }
+
+.F-container{
+  padding: 1rem;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 40px;
+}
+.con-name {
+  text-align: center;
+  margin-left: -161px;
+}
+.F-para{
+  text-align: center;
+
+}
+.F-cover{
+  background-color: black;
+  border: 1px solid white;
+}
+
+@media only screen and (max-width: 602px){
+  .F-grid {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 175px);
+    justify-content: center;
+    overflow: hidden;
+    margin-left: -99px;
+}
+.con-name{
+  margin-left: -30px;
+}
+}
+@media (max-width: 500px) {
+  .F-grid {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 0px;
+}
+.F-para {
+  text-align: center;
+  margin-left: -11px;
+  font-size: 10px;
+  color: red;
+}
+}

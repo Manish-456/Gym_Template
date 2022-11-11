@@ -1,0 +1,32 @@
+.Ab-main::before{
+ content: " ";
+ background : url('../components/images/Aboutgym.jpg') no-repeat center center/cover ;
+ position: absolute;
+ height: 200%;
+ width: 100%;
+ z-index: -1;
+ opacity: .7;
+
+}
+
+
+.Ab-main{
+ position: relative;
+
+}
+.joinee{
+ margin-top: 200px;
+
+}
+
+.AboutCont {
+ text-align: center;
+ padding-top: 50px;
+ padding-right: -138px;
+ color: #0bf30b;
+ position: relative;
+}
+.Ab-Para{
+ color: white;
+ padding-top: 40px;
+}

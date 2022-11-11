@@ -1,0 +1,86 @@
+.Gallery{
+ height: 400px;
+ width: 400px;
+}
+
+.img-main:before{
+content: " ";
+position: absolute;
+height: 200%;
+width: 100%;
+background: url('../components/images/garrett-butler-UrJ-fn2iRUM-unsplash.jpg') no-repeat center center/cover;
+opacity: .5;
+z-index: -1;
+}
+
+.img-main{
+ position: relative;
+
+}
+
+.gallery-pic {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ position: relative;
+ margin-top: 50px;
+}
+.D-btn {
+ background-color: green;
+ border: none;
+ color: white;
+ padding: 12px 30px;
+ cursor: pointer;
+ font-size: 20px;
+ position: relative;
+ left: 92px;
+ top: -52px;
+
+}
+.V-btn{
+ background-color: DodgerBlue;
+ border: none;
+ color: white;
+ padding: 12px 30px;
+ cursor: pointer;
+ font-size: 20px;
+ position: relative;
+ left: 2px;
+ top: -52px;
+
+}
+
+
+.btns{
+ position: relative;
+}
+/* Darker background on mouse-over */
+.D-btn:hover {
+ background-color: RoyalBlue;
+}
+.G-h1{
+ color: blue;
+}
+.G-span{
+ color: rgb(7, 248, 7);
+
+}
+
+.G-para{
+ padding-top: 40px;
+}
+.gallery-contents{
+ text-align: center;
+ padding-top: 40px;
+}
+
+.G-h2{
+ margin-top: 200px;
+ text-align: center;
+}
+.G-h5{
+text-align: center;
+}
+.G-h2{
+ color: red;
+}

@@ -1,0 +1,171 @@
+.P-start {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(4, 285px);
+  grid-gap: 1rem;
+  margin-left: 8px;
+  margin-top: 40px;
+}
+.p-Content{
+ border: 2px solid white;
+ position: relative;
+ height: 320px;
+ text-align: center;
+ box-shadow: 0.2rem 0.3rem 0.4rem blue, -0.2rem -0.3rem 0.4rem blue;
+}
+.P-int{
+ text-decoration: line-through;
+}
+
+.P-actual{
+ font-size: 30px;
+ color: red;
+}
+
+.P-head, .P-subHead {
+  text-align: center;
+  margin-left: -105px;
+}
+.P-btn{
+ position: absolute;
+ top: 245px;
+ right: 35px;
+
+}
+@media (max-width: 1500px) and (min-width: 1200px){
+  .P-start {
+    display: grid;
+    grid-template-columns: repeat(4, 242px);
+    grid-gap: 1rem;
+    margin-left: 6px;
+    margin-top: 40px;
+}
+
+ .p-Content {
+  border: 2px solid white;
+  position: relative;
+  height: 320px;
+  text-align: center;
+  box-shadow: 0.2rem 0.3rem 0.4rem blue, -0.2rem -0.3rem 0.4rem blue;
+  height: 330px;
+  width: 270px;
+}
+.P-btn {
+ position: absolute;
+ top: 245px;
+ right: 33px;
+}
+
+.P-head, .P-subHead {
+ text-align: center;
+ margin-left: 3px
+
+}
+}
+@media (max-width: 602px) and (min-width: 500px){
+  .P-start {
+    display: grid;
+    grid-template-columns: repeat(1, 295px);
+    grid-gap: 1rem;
+    margin-left: 161px;
+    margin-top: 40px;
+}
+.P-btn {
+  position: absolute;
+  top: 245px;
+  right: 78px;
+}
+.P-head, .P-subHead {
+     text-align: center;
+    margin-left: 62px;
+    font-size: 16px;
+}
+
+.P-box{
+  margin-left: -69px;
+}
+
+}
+
+@media (max-width: 500px) and (min-width:400px){
+  .P-head, .P-subHead {
+    text-align: center;
+    margin-left: -55px;
+    font-size: 16px;
+}
+.P-start {
+  display: grid;
+  grid-template-columns: repeat(1, 295px);
+  grid-gap: 1rem;
+  margin-left: 73px;
+  margin-top: 40px;
+}
+.P-btn {
+  position: absolute;
+  top: 245px;
+  right: 71px;
+}
+}
+@media (max-width: 400px){
+  .P-head, .P-subHead {
+    text-align: center;
+    margin-left: -2px;
+    font-size: 16px;
+}
+.P-start {
+  display: grid;
+  grid-template-columns: repeat(1, 295px);
+  grid-gap: 1rem;
+  margin-left: 27px;
+  margin-top: 40px;
+}
+.P-btn {
+  position: absolute;
+  top: 245px;
+  right: 71px;
+}
+}
+
+@media (max-width: 1200px) and (min-width: 1000px){
+  .P-start {
+    display: grid;
+    grid-template-columns: repeat(2, 311px);
+    grid-gap: 1rem;
+    margin-left: 163px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+}
+
+@media (max-width: 1000px) and (min-width: 770px){
+  .P-box{
+    margin-left:-157px;
+  }
+  .P-head, .P-subHead {
+    text-align: center;
+    margin-left: 99px;
+}
+.P-start {
+  display: grid;
+  grid-template-columns: repeat(2, 274px);
+  grid-gap: 1rem;
+  margin-left: 212px;
+  margin-top: 40px;
+  overflow: hidden;
+}
+}
+
+@media (max-width: 770px) and (min-width: 602px){
+  .P-start {
+    display: grid;
+    grid-template-columns: repeat(1, 274px);
+    grid-gap: 1rem;
+    margin-left: 85px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+}
+
+
+

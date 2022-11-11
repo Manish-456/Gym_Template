@@ -1,0 +1,130 @@
+/* *{
+ box-sizing: border-box;
+margin: 0;
+padding: 0
+} */
+.apps{
+ display: flex;
+; flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  width: 100%;
+
+ 
+
+}
+ label{
+  margin-left: 30px;
+ }
+
+.bmi-outer{
+ border: 2px solid white;
+   border-radius: 8px;
+   padding: 1rem;
+   background: rgba(255, 255, 255, 0.14);
+   border-radius: 16px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(5px);
+   -webkit-backdrop-filter: blur(5px);
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   margin-top: 30px;
+}
+.center{
+ text-align: center;
+}
+input{
+  width: 100%;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  padding: 8px 4px;
+  margin-left: 55px;
+  
+}
+.img-container img{
+ height: 200px;
+ width: 200px;
+ text-align: center;
+ margin-left: 120px;
+}
+@media (max-width: 602px){
+  input {
+    width: 85%;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    padding: 8px 4px;
+    margin-left: 0px;
+}
+.bmi-result{
+  margin-right: 30px;
+}
+.img-container img {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin-left: 33px;
+}
+.bmi-container{
+  margin-left: -85px;
+}
+.F-para {
+  text-align: center;
+  margin-left: -80px;
+}
+}
+
+@media (max-width: 500px){
+  form{
+    margin-left: 110px;
+
+}
+.bm{
+ display: flex;
+
+}
+#submit{
+  margin-left: -68px;
+
+}
+input {
+  width: 100%;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  padding: 8px 4px;
+  margin-left: 0px;
+  margin-left: -45px;
+  text-align: center;
+}
+.M-bmi{
+
+    font-size: 15px;
+
+}
+.bmi-result {
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.img-container img {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin-left: 100px;
+}
+.BMI-head{
+text-align: center;
+}
+.bmi-outer {
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 30px;
+  margin-left: 63px;
+}
+}
+

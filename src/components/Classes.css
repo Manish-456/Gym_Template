@@ -1,0 +1,32 @@
+.Cls-main::before{
+ content: " ";
+ background : url('../components/images/Classes.jpg') no-repeat center center/cover ;
+ position: absolute;
+ height: 200%;
+ width: 100%;
+ z-index: -1;
+ opacity: .7;
+ top:0;
+}
+
+.Cls-main{
+position: relative;
+}
+
+.joinee{
+ margin-top: 200px;
+}
+
+.cls-content{
+ text-align: center;
+ padding-top: 50px;
+ padding-right: -138px;
+ color: #0bf30b;
+ position: relative;
+}
+.C-para{
+ 
+  color: white;
+  padding-top: 40px;
+ 
+}
